@@ -1,0 +1,43 @@
+{
+	"BundleType": "Application",
+	"BundleIdentifier": "boilerplate",
+	"BundleVersion": "0.0.1",
+	"AppName": {
+		"en": "Spotify Boilerplate"
+	},
+	"AppIcon": {
+		"36x18": "img/36x18.png",
+		"64x64": "img/64x64.png",
+		"128x128": "img/128x128.png"
+	},
+	"AppURL": "http://mindthecode.com",
+	"AppDescription": "Spotify Boilerplate",
+	"ApiPermissions" : {
+		"core" : ["private"],
+		"social" : ["private"],
+		"playlist" : ["private"]
+	},
+	"SupportedLanguages": [
+		"en"
+	],
+	"VendorIdentifier": "com.YOUR_IDENTIFIER",
+	"RequiredInterface": "1",
+	"RequiredPermissions": [
+		"https://fbcdn-profile-*.akamaihd.net",
+		"http://*.fbcdn.net"
+	],
+	"DefaultTabs": [
+		{
+			"arguments": "home",
+			"title": {
+				"en": "Home"
+			}
+		},
+		{
+			"arguments": "exampletab",
+			"title": {
+				"en": "Example tab"
+			}
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+    "dynamicname": "John Doe",
+    "playlists": [
+        {
+            "name": "Eeny",
+            "spotifyurl": "spotify:user:stefham:playlist:1obBuHCfesZ6dfpCs0VynY"
+        },
+        {
+            "name": "Miny",
+            "spotifyurl": "spotify:user:baskrud:playlist:2zVwbNWpo76ui1ndbUU8XK"
+        },
+        {
+            "name": "Moe",
+            "spotifyurl" : "spotify:user:topnotchnl:playlist:5NlMJ2LJ95ScsSJTT9piIE"
+        }
+    ]
+}
