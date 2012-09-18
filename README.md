@@ -13,12 +13,12 @@ I will add to it as I stumble upon free time, but feel free to open a Pull Reque
 
 ## How to set it up (on your Mac)
 
-1) Sign up for a developer account on Spotify
-2) Open Terminal, and if it doesn't exist yet `mkdir ~/Spotify`
-3) cd ~/Spotify
-4) git clone git@github.com:Hyra/Spotify-Boilerplate.git
-5) Download the latest version of Spotify
-6) Open Spotify and type `spotify:app:boilerplate` in the search bar
+1. Sign up for a developer account on Spotify
+2. Open Terminal, and if it doesn't exist yet `mkdir ~/Spotify`
+3. cd ~/Spotify
+4. git clone git@github.com:Hyra/Spotify-Boilerplate.git
+5. Download the latest version of Spotify
+6. Open Spotify and type `spotify:app:boilerplate` in the search bar
 
 ## What's in the Boilerplate
 
@@ -49,6 +49,7 @@ The route loads a Mustache template into the DOM, parses it, asynch-y fill in th
 After that it will run your callback actions, should you need to.
 
 `loadSection` takes 5 parameters at the moment:
+
 - ctxt - A reference to the `Sammy.Context` which was passed to the route
 - ID - A unique identifier for the content which is used as a cache-key
 - Template File - location to the Mustache template
