@@ -99,7 +99,7 @@ app = $.sammy('#content', function() {
 
 	this.get('home', function(ctxt) {
 		
-		loadSection(ctxt, "news", "/templates/home.html", "js/_example_data.json", function() {
+		loadSection(ctxt, "news", "/templates/home.html", "js/dummy_data/example_data.json", function() {
 		});
 
 	});
