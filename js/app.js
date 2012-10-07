@@ -68,6 +68,7 @@ function loadSection(ctxt, id, tplFile, dataFile, cb) {
 
 						// Mark as done
 						sections_loaded[id] = true;
+						if(cb) { cb(data); }
 					});
 				});
 			} else {
@@ -83,12 +84,13 @@ function loadSection(ctxt, id, tplFile, dataFile, cb) {
 
 					// Mark as done
 					sections_loaded[id] = true;
+					if(cb) { cb(); }
 				});
 			}
 	} else {
 		$("#content #"+id).show();
+		if(cb) { cb(); }
 	}
-	if(cb) { cb(); }
 }
 
 app = $.sammy('#content', function() {
